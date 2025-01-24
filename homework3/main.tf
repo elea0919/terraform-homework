@@ -35,7 +35,7 @@ resource "aws_instance" "web-1" {
   user_data = file("apache.sh")
 
   tags = {
-    Name = "HelloWorld"
+    Name = "web-1"
   }
 }
 
@@ -49,7 +49,7 @@ resource "aws_instance" "web-2" {
   user_data = file("apache.sh")
 
   tags = {
-    Name = "HelloWorld"
+    Name = "web-2"
   }
 }
 
@@ -63,7 +63,7 @@ resource "aws_instance" "web-3" {
   user_data = file("apache.sh")
 
   tags = {
-    Name = "HelloWorld"
+    Name = "web-3"
   }
 }
 
