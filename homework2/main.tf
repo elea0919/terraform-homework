@@ -19,3 +19,6 @@ resource "aws_s3_bucket" "manual" {
 resource "aws_s3_bucket" "manual2" {
   bucket = "kaizen-elea3"
 }
+
+#terraform import aws_s3_bucket.manual2 kaizen-elea3
+#terraform import aws_s3_bucket.manual kaizen-elea2
